@@ -2,15 +2,15 @@
 #define H HIGH
 #define L LOW
 #define LED_0 LED_BUILTIN
-#define LED_1 D8
-#define LED_2 D0
-#define LED_3 D1
-#define LED_4 D2
-#define LED_5 D3
-#define LED_6 D4
-#define LED_7 D5
-#define LED_8 D6
-#define LED_9 D7
+#define LED_1 D0
+#define LED_2 D1
+#define LED_3 D2
+#define LED_4 D3
+#define LED_5 D4
+#define LED_6 D5
+#define LED_7 D6
+#define LED_8 D7
+#define LED_9 D8
 void setup()
 {
   pinMode(LED_0, OUTPUT);
